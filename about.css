@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
+    background: #081b29;
+    color: #ffffff;
+    background-image: url(bg.png);
+    background-size: cover;
+    align-items: center;
+    /* height: 100vh; */
+ 
+}
+
+.header{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex; 
+    padding: 20px 10%;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+    
+}
+
+.logo{
+    font-family:cursive;
+    text-shadow: #00abf0 2px 4px 7px;
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+    font-size: 15px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px;
+    transition: .5s;
+    
+}
+.navbar a:hover , a.active 
+{
+    color: #00abf0;
+}
+
+
+
+
+.mainbox{
+    /* border: 1px rgb(255, 255, 255) solid; */
+    margin: 17vh 0vh 0vh;
+    bottom: 0;
+    /* display: flex; */
+
+    /* gap: 4vh; */
+}
+.pfp{
+    width: 200px;
+    border-radius: 100%;
+    background-color:#ffffff;
+    
+}
+.col1{
+    background: #081b29;
+    width: 30%;
+    border-radius: 30px;
+    padding: 5vh;
+    text-align: center;
+    color: #ededed;
+
+}
+h2{
+
+    padding: 1vh ;
+
+}
+.col2{
+    background: #06151f;
+    padding: 5vh;
+    border-radius: 30px;
+    width: 70%;
+    color: #ededed;
+    position: ab;
+}
+.social{
+    display: flex;
+    padding-top: 5px;
+}
+.social p{
+    /* border: 1px red solid; */
+    display: flex;
+    align-items: center;
+}
+.icon{
+    /* border: 1px rgb(255, 255, 255) solid; */
+    color: #00b7ff;
+    font-size: 20px;
+    width:5vh;
+}
+.below-icon{
+    margin-top: 2vh;
+}
+.below-icon a{
+    color: #00abf0;
+    font-size:20px ;
+}
+.below-icon :hover{
+    transform: translateY(-5px);
+}
+.icon :hover{
+    transform: translateX(-5px);
+}
+
+h1{
+    padding: 3vh 10vh 0;
+}
+.content{
+    padding: 5vh 10vh 0vh ;
+}

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
+    background: #081b29;
+    color: #ffffff;
+    background-image: url(bg.png);
+    background-size: cover;
+    align-items: center;
+    /* height: 100vh; */
+ 
+}
+
+.header{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex; 
+    padding: 20px 10%;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+    
+}
+
+.logo{
+    font-family:cursive;
+    text-shadow: #00abf0 2px 4px 7px;
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+    font-size: 15px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px;
+    transition: .5s;
+    
+}
+.navbar a:hover , a.active 
+{
+    color: #00abf0;
+}
+
+
+
+
+.mainbox{
+    /* border: 1px rgb(255, 255, 255) solid; */
+    margin: 17vh 0vh 0vh;
+    bottom: 0;
+    /* display: flex; */
+
+    /* gap: 4vh; */
+    width: 100%;
+    height: 420px;
+    background: #091a26;
+    border-radius: 40px;
+    padding: 10vh;
+}
+
+.contact-container { 
+    max-width: 600px; 
+    margin: auto; 
+}
+  h2{
+    color: whitesmoke;
+  }
+
+ 
+  .input-group { 
+    display: flex;
+    gap: 5px; 
+    margin: 15px; 
+    left: 10px;
+    border-radius: 10px;
+
+
+  }
+
+  input {
+    width: 293px;
+    padding: 15px;
+    background: #ffffff;
+    border: 3px solid #00abf0;
+    border-radius: 10px;
+    color: #00abf0;
+    box-sizing: border-box; /* Prevents padding from breaking layout */
+  }
+
+  .message{
+    /* width: 100%; */
+    padding: 15px;
+    background: #ffffff;
+    border: 3px solid #00abf0;
+    border-radius: 10px;
+    color: #00abf0;
+    /* box-sizing: border-box;  */
+   
+  }
+
+  .button {
+    float: right;
+    background: #00abf0;
+    color:#ededed; 
+    border: 3px solid #00abf0;
+    padding: 12px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.3);
+  }
+
+  .button:hover { 
+    background: transparent; 
+    }
+    .contact-me{
+        color: #00abf0;
+        font-size: 50px;
+        font-weight: 500;
+    }
