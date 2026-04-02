@@ -50,3 +50,12 @@ cat1.addEventListener("mouseout", ()=>{
     cat1.setAttribute("src", "https://shaynakit.com/storage/assets/cover_project/fMCumQyDj7Z3PQjY2fiaf9Me5h8fv8YDen06M1OU.png");
 
 } );
+
+// ============================
+const typed2 = new Typed(".text2", { 
+    strings: ["Launching soon..."], 
+    typeSpeed: 100,
+    backSpeed: 50,
+    backDelay: 2000,
+    loop: true
+});

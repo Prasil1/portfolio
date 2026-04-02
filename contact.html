@@ -19,7 +19,7 @@
     <nav class="nav-bar">
         <div class="navbar-container">
             <a href="index.html" class="logo">PRASIL</a>
-            <button class="navbar-toggle">
+            <button class="navbar-toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -27,52 +27,65 @@
             <ul class="navbar-menue">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="education.html" >Education & Skills</a></li>
-                <li><a href="projects.html" >Projects</a></li>
+                <li><a href="education.html">Education & Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-
-        <div class="mainbox container ">
-            <div class="row ">
-            <div class="col1 col-lg-5 col-md-5 col-sm-5 col-12  ">
-                <h1 class="heading">Education</h1>
-                <div class="education">
-                    <ul class="time-line" type="none">
-                        <li class="time-content">
-                            <h5>Deerwalk Institude of TEchnloagy</h1>
-                        <span>Novenber 2025 - Present</span>
-                        </li>
-                        <li class="time-content">
-                            <h5>Global School of Science</h1>
-                        <span>2023-2025</span>
-                        </li class="time-content">
-                        <li>
-                            <h5>Valley View School</h1>
-                        <span>2018-2022</span>
-                        </li>
-                    </ul>
+    <section class="mainbox container d-flex align-items-center">
+        <div class="row w-100 p-4">
+            <div class="col-md-5 contact-info">
+                <h2>Let's Connect</h2>
+                <p>Have a project in mind or just want to say hi? Feel free to reach out!</p>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>contact-prasil@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+123 456 7890</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-location-dot"></i>
+                    <span>Kathmandu, Nepal</span>
                 </div>
             </div>
-            
-            <div class="col-1 "> <br><br></div>
-            
-            <div class="col2 col-lg-5 col-md-5 col-sm-5 col-12">
-                <h1 class="heading">Skills</h1>
-                <ul>
-                
-                </ul>
+
+            <div class="col-md-7">
+                <form class="contact-form">
+                    <div class="mb-3">
+                        <input type="text" class="form-control bg-transparent text-white" placeholder="Full Name"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control bg-transparent text-white" placeholder="Email Address"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control bg-transparent text-white" rows="4" placeholder="Your Message"
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="summit">
+                        <i class="fa-solid fa-paper-plane ms-2"></i>
+                        <span>Send Message</span>
+                    </button>
+                </form>
             </div>
-    </div>
+        </div>
+    </section>
 
-
-
+    <footer class="footer">
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 Prasil. All rights reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
-   
-
 </body>
 
 </html>

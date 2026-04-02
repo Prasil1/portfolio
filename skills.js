@@ -1,12 +1,12 @@
 function showInfo(skill, element) {
-  // changing the detail
+
   const info = document.getElementById("skill-info");
 
-  // removing the 'active-skill' class from all skill icons
+  // remove garna
   const allSkills = document.querySelectorAll('.skill');
   allSkills.forEach(s => s.classList.remove('active-skill'));
 
-  // add the 'active-skill' class to the one clicked
+  // add garna
   if (element) {
     element.classList.add('active-skill');
   }
