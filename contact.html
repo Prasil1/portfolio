@@ -1,56 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <header class="header">
-        <a href="index.html" class="logo">PRASIL</a>
-        
-        <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class=" navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
 
-            <a href="index.html" >Home</a>
-            <a href="about.html " target="">About</a>
-            <a href="education.html" >Education & Skills</a>
-            <a href="projects.html " >Projects</a>
-            <a href="contact.html" class="active">Contact</a>
+<body>
+    <nav class="nav-bar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">PRASIL</a>
+            <button class="navbar-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="navbar-menue">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html" >Education & Skills</a></li>
+                <li><a href="projects.html" >Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
         </div>
-    </div>
     </nav>
 
-    </header>
 
-    <div class="mainbox container ">
-    
-<div class="contact-container">
-  <div class="contact-me">Contact Me</div>
-  <form>
-    <div class="input-group row">
-      <input type="text" class="col-lg-5 col-12" placeholder="Full name" required>
-      <input type="email" class="col-lg-6 col-12"placeholder="Email address" required>
+        <div class="mainbox container ">
+            <div class="row ">
+            <div class="col1 col-lg-5 col-md-5 col-sm-5 col-12  ">
+                <h1 class="heading">Education</h1>
+                <div class="education">
+                    <ul class="time-line" type="none">
+                        <li class="time-content">
+                            <h5>Deerwalk Institude of TEchnloagy</h1>
+                        <span>Novenber 2025 - Present</span>
+                        </li>
+                        <li class="time-content">
+                            <h5>Global School of Science</h1>
+                        <span>2023-2025</span>
+                        </li class="time-content">
+                        <li>
+                            <h5>Valley View School</h1>
+                        <span>2018-2022</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-1 "> <br><br></div>
+            
+            <div class="col2 col-lg-5 col-md-5 col-sm-5 col-12">
+                <h1 class="heading">Skills</h1>
+                <ul>
+                
+                </ul>
+            </div>
     </div>
-    
-    <textarea placeholder="Your Message" class="col-lg-11 col-12 message" required></textarea>
-    
-    <button type="submit" class="button">
-      <span>➤</span> Send Message</button>
-  </form>
-</div>
-       
-    </div>
-    
+
+
+
+
+    <script src="script.js"></script>
+   
+
 </body>
+
 </html>

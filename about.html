@@ -12,36 +12,35 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <a href="index.html" class="logo">PRASIL</a>
-        
-        <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class=" navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-
-            <a href="index.html" >Home</a>
-            <a href="about.html " class="active" target="">About</a>
-            <a href="education.html">Education & Skills</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
+    <nav class="nav-bar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">PRASIL</a>
+            <button class="navbar-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="navbar-menue">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="education.html">Education & Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </div>
-    </div>
     </nav>
 
-    </header>
 
-        <div class="mainbox container ">
-            <div class="row ">
-            <div class="col1 col-lg-3 col-md-5 col-sm-5 col-12  ">
-                <img src="pfp.png" class="pfp" alt="">
+        <div class="mainbox container  ">
+            <div class="row justify-content-center g-5">
+            <div class="col1 col-lg-4 col-md-5  list col-12  ">
+                <div class="pfp-box"><img src="Images/pfp.png" class="pfp" id="pfp" alt="pfp"></div>
+                
                 <h2>Prasil Adhikari</h2>
                     <div class="social-links">
                         <div class="social">
                             <a href="#" class="icon"> <i class="fa-solid fa-envelope"></i></a>
-                            <p>prasil.adhikari01@gmail.com</p>
+                            <p >prasil.adhikari01@gmail.com</p>
                         </div>
                         <div class="social">
                             <a href="#" class="icon"> <i class="fa-solid fa-phone"></i></a>
@@ -51,7 +50,7 @@
                             <a href="#" class="icon"> <i class="fa-solid fa-location-dot"></i></a>
                             <p> Kathmandu, Nepal</p>
                         </div> 
-                    </div>
+                    </div>  
 
                     <div class="below-icon">
                                 <a href="#" ><i class="fab fa-youtube"></i></a>
@@ -61,20 +60,18 @@
                                 <a href="#" ><i class="fab fa-instagram"></i></a>
                     </div>
             </div>
-            <div class="col-1 "> <br><br></div>
+            <div class="col gap"> <br><br></div>
 
-            <div class="col2 col-lg-8 col-md-6 col-sm-6 col-12">
-                <h1>About Me</h1>
+            <div class="col2 col-lg-7 col-md-6 col-12">
+                <h1> <i class="fa-solid fa-envelope"> </i> About Me</h1>
                 <p class="content">"A highly motivated, diligent, and exceptionally capable undergraduate IT student, passionate about leveraging cutting-edge technologies to solve real-world problems. Eager to gain hands-on experience, enhance technical expertise, and contribute meaningfully to innovative projects while driving the success and growth of forward-thinking organizations. Committed to continuous learning, problem-solving, and delivering high-quality results in every endeavor."</p>
                
 </div>
 
     </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
-    
+      <script src="script.js"></script>
+      <script src="pfp.js"></script>
     
 </body>
 </html>
