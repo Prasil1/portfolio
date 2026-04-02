@@ -294,7 +294,11 @@ body {
     width: 100%;
     height: 200px;
     background: #112d42; 
+    font-size: 15px;
 
+}
+.text2{
+    font-size: 30px;
 }
 .timer-container{
     color:#00abf0;
